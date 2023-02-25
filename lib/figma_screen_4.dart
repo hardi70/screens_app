@@ -919,9 +919,6 @@ class _FigmaScreen4State extends State<FigmaScreen4> {
                           ],
                         ),
                       ),
-                      const SizedBox(
-                        width: 20,
-                      ),
                     ],
                   ),
                 ),
