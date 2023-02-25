@@ -656,24 +656,30 @@ class _FigmaScreen4State extends State<FigmaScreen4> {
                 const SizedBox(
                   height: 10,
                 ),
-                Column(
-                  children: const [
-                    CommanContainer(
-                      text: "Bedroom",
-                    ),
-                    SizedBox(
-                      height: 15,
-                    ),
-                    CommanContainer(
-                      text: "Bathroom",
-                    ),
-                    SizedBox(
-                      height: 15,
-                    ),
-                    CommanContainer(
-                      text: "Balcony",
-                    ),
-                  ],
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: const [
+                      CommanContainer(
+                        text: "Bedroom",
+                        countText: "1",
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      CommanContainer(
+                        text: "Bathroom",
+                        countText: "2",
+                      ),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      CommanContainer(
+                        text: "Balcony",
+                        countText: "1",
+                      ),
+                    ],
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(15),

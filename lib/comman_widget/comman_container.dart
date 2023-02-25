@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 
 class CommanContainer extends StatelessWidget {
   final String? text;
-  const CommanContainer({Key? key, this.text}) : super(key: key);
+  final String? countText;
+  const CommanContainer({Key? key, this.text, this.countText})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 70,
-      width: 327,
+      width: double.infinity,
       decoration: BoxDecoration(
         color: const Color(0XFFF5F4F8),
         borderRadius: BorderRadius.circular(30),
@@ -43,7 +45,7 @@ class CommanContainer extends StatelessWidget {
               width: 15,
             ),
             Text(
-              text!,
+              countText!,
               style: TextStyle(
                 fontFamily: "Lato",
                 fontSize: 16,

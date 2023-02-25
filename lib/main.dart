@@ -1,7 +1,7 @@
 /// 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
 import 'package:flutter/material.dart';
 
-import 'figma_screen_5.dart';
+import 'figma_screen_4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FigmaScreen5(),
+      home: const FigmaScreen4(),
     );
   }
 }
