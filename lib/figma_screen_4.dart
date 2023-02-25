@@ -45,10 +45,7 @@ class _FigmaScreen4State extends State<FigmaScreen4> {
                       fontFamily: "Lato",
                     ),
                   ),
-                  const SizedBox(
-                    height: 50,
-                    width: 50,
-                  ),
+                  const SizedBox(height: 50, width: 50),
                 ],
               ),
             ),
