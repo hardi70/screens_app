@@ -345,7 +345,7 @@ class _FigmaScreen5State extends State<FigmaScreen5> {
                             alignment: Alignment.bottomCenter,
                             children: [
                               Image.asset(
-                                "assets/images/Rectangle 2214.png",
+                                "assets/images/Rectangle 221_images.png",
                               ),
                               const Padding(
                                 padding: EdgeInsets.all(8.0),
