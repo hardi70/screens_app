@@ -225,15 +225,6 @@ class _SignUpScreenStackbarState extends State<SignUpScreenStackbar> {
   }
 
   showToastMessage(String message) {
-    // return Fluttertoast.showToast(
-    //   msg: message,
-    //   toastLength: Toast.LENGTH_SHORT,
-    //   gravity: ToastGravity.BOTTOM,
-    //   // timeInSecForIosWeb: 1,
-    //   backgroundColor: Colors.black45,
-    //   textColor: Colors.black26,
-    //   fontSize: 16.0,
-    // );
     return ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(message),
